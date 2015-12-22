@@ -33,8 +33,52 @@ run_list(
 # %w(git go packer tree)
 #
 # packages for OS X
-default['homebrew']['casks']      = %w()
-default['homebrew']['formula']    = %w()
-default['homebrew']['taps']       = %w()
+default['homebrew']['casks']      = %w(
+1password
+atom
+cakebrew
+dockertoolbox
+dropbox
+emacs-mac
+evernote
+firefox
+flux
+google-chrome
+iterm2
+java
+marked
+sequel-pro
+skitch
+skype
+slack
+splashtop-personal
+splashtop-streamer
+spotify
+teamviewer
+vagrant
+virtualbox
+vlc
+xquartz
+)
+default['homebrew']['formula']    = %w(
+                                        awscli
+                                        direnv
+                                        dos2unix
+                                        freetype
+                                        git
+                                        go
+                                        jsonpp
+                                        kafkacat
+                                        mackup
+                                        node
+                                        postgresql
+                                        readline
+                                        sqlite
+                                        tmux
+                                        wget
+                                        zsh
+                                        zsh-completions
+                                      )
+default['homebrew']['taps']       = %w(railwaycat/emacsmacport caskroom/fonts)
 # packages for Windows
 default['chocolatey']['packages'] = %w()
