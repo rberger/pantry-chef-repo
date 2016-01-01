@@ -51,6 +51,7 @@ java
 lastfm
 marked
 onyx
+packer
 sequel-pro
 skitch
 skype
@@ -69,7 +70,6 @@ default['homebrew']['formula']    = %w(
                                         direnv
                                         dos2unix
                                         freetype
-                                        geeknote
                                         git
                                         go
                                         jsonpp
