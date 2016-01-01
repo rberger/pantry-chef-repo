@@ -3,6 +3,14 @@
 * pocket
 * Gotomeeting
 
+## No cask and in MacApp Store
+* Dash2
+* Autograph
+* CCMenu
+* twitter
+* Pixelmater
+* Xcode
+
 ## Safari, Chrome, Firefox  Plugins
 * Pocket
 * 1Password

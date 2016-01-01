@@ -43,10 +43,14 @@ emacs-mac
 evernote
 firefox
 flux
+github-desktop
+grandperspective
 google-chrome
 iterm2
 java
+lastfm
 marked
+onyx
 sequel-pro
 skitch
 skype
@@ -65,6 +69,7 @@ default['homebrew']['formula']    = %w(
                                         direnv
                                         dos2unix
                                         freetype
+                                        geeknote
                                         git
                                         go
                                         jsonpp
