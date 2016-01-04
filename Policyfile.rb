@@ -35,6 +35,7 @@ run_list(
 # packages for OS X
 default['homebrew']['casks']      = %w(
 1password
+android-studio
 atom
 cakebrew
 cargo
