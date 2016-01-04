@@ -37,6 +37,7 @@ default['homebrew']['casks']      = %w(
 1password
 atom
 cakebrew
+cargo
 dockertoolbox
 dropbox
 emacs-mac
@@ -52,6 +53,8 @@ lastfm
 marked
 onyx
 packer
+python
+rust
 sequel-pro
 skitch
 skype
@@ -66,24 +69,25 @@ vlc
 xquartz
 )
 default['homebrew']['formula']    = %w(
-                                        awscli
-                                        direnv
-                                        dos2unix
-                                        freetype
-                                        git
-                                        go
-                                        jsonpp
-                                        kafkacat
-                                        mackup
-                                        node
-                                        postgresql
-                                        readline
-                                        sqlite
-                                        tmux
-                                        wget
-                                        zsh
-                                        zsh-completions
-                                      )
+awscli
+direnv
+dos2unix
+freetype
+git
+go
+jsonpp
+kafkacat
+mackup
+node
+ocaml
+postgresql
+readline
+sqlite
+tmux
+wget
+zsh
+zsh-completions
+)
 default['homebrew']['taps']       = %w(railwaycat/emacsmacport caskroom/fonts)
 # packages for Windows
 default['chocolatey']['packages'] = %w()
