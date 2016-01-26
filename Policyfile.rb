@@ -7,6 +7,8 @@ name 'pantry'
 # Get cookbooks from supermarket.chef.io
 default_source :community
 
+cookbook "pantry", github: 'rberger/pantry', branch: 'rberger/new_homebrew'
+
 ##########
 # Run List
 # chef-client will run these recipes in the order specified.
