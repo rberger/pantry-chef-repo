@@ -47,6 +47,7 @@ emacs-mac
 evernote
 firefox
 flux
+font-source-code-pro
 github-desktop
 grandperspective
 google-chrome
