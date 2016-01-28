@@ -76,11 +76,15 @@ xquartz
 )
 default['homebrew']['formula']    = %w(
 awscli
+ccleaner
+cyberduck
 direnv
 dos2unix
+evernote
 freetype
 git
 go
+harvest
 jsonpp
 kafkacat
 mackup
@@ -88,7 +92,10 @@ node
 ocaml
 postgresql
 readline
+skitch
 sqlite
+ssh-tunnel-manager
+textual
 tmux
 wakatime-cli
 wget
