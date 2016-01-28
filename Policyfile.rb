@@ -48,6 +48,8 @@ evernote
 firefox
 flux
 font-source-code-pro
+font-source-sans-pro
+font-source-serif-pro
 github-desktop
 grandperspective
 google-chrome
@@ -88,6 +90,7 @@ postgresql
 readline
 sqlite
 tmux
+wakatime-cli
 wget
 zsh
 zsh-completions
