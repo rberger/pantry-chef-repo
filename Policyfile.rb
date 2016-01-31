@@ -43,6 +43,7 @@ cargo
 dockertoolbox
 dropbox
 emacs-mac
+evernote
 firefox
 flux
 font-source-code-pro
@@ -51,6 +52,7 @@ font-source-serif-pro
 github-desktop
 grandperspective
 google-chrome
+harvest
 iterm2
 java
 lastfm
@@ -65,7 +67,9 @@ slack
 splashtop-personal
 splashtop-streamer
 spotify
+ssh-tunnel-manager
 teamviewer
+textual
 vagrant
 virtualbox
 vlc
@@ -75,11 +79,9 @@ default['homebrew']['formula']    = %w(
 awscli
 direnv
 dos2unix
-evernote
 freetype
 git
 go
-harvest
 jsonpp
 kafkacat
 mackup
@@ -87,10 +89,7 @@ node
 ocaml
 postgresql
 readline
-skitch
 sqlite
-ssh-tunnel-manager
-textual
 tmux
 wakatime-cli
 wget
