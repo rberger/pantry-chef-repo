@@ -36,7 +36,6 @@ run_list(
 #
 # packages for OS X
 default['homebrew']['casks']      = %w(
-1password
 android-studio
 atom
 cakebrew
@@ -76,8 +75,6 @@ xquartz
 )
 default['homebrew']['formula']    = %w(
 awscli
-ccleaner
-cyberduck
 direnv
 dos2unix
 evernote
