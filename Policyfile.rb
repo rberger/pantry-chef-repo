@@ -43,7 +43,6 @@ cargo
 dockertoolbox
 dropbox
 emacs-mac
-evernote
 firefox
 flux
 font-source-code-pro
