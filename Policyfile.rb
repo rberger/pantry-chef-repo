@@ -55,7 +55,6 @@ google-chrome
 iterm2
 java
 lastfm
-marked
 onyx
 packer
 python
