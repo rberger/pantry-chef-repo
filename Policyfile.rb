@@ -40,6 +40,7 @@ android-studio
 atom
 cakebrew
 cargo
+chefdk
 dockertoolbox
 dropbox
 emacs-mac
@@ -50,10 +51,11 @@ font-source-code-pro
 font-source-sans-pro
 font-source-serif-pro
 github-desktop
+gpgtools
 grandperspective
 google-chrome
 harvest
-iterm2
+iterm2-beta
 java
 lastfm
 onyx
@@ -77,25 +79,36 @@ xquartz
 )
 default['homebrew']['formula']    = %w(
 awscli
+coreutils
+dffoscope
 direnv
 dos2unix
 freetype
 git
 go
+gradle
+ispell
+jenv
 jsonpp
 kafkacat
 mackup
 node
 ocaml
+opam
+pandoc
+PlantUML
 postgresql
+python
 readline
+slurm
 sqlite
+swagger-codegen
 tmux
 wakatime-cli
 wget
 zsh
 zsh-completions
 )
-default['homebrew']['taps']       = %w(railwaycat/emacsmacport caskroom/fonts)
+default['homebrew']['taps']       = %w(railwaycat/emacsmacport caskroom/fonts caskroom/versions)
 # packages for Windows
 default['chocolatey']['packages'] = %w()
