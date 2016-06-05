@@ -41,6 +41,7 @@ atom
 cakebrew
 cargo
 chefdk
+cyberduck
 dockertoolbox
 dropbox
 emacs-mac
@@ -51,6 +52,7 @@ font-source-code-pro
 font-source-sans-pro
 font-source-serif-pro
 github-desktop
+go2shell
 gpgtools
 grandperspective
 google-chrome
@@ -58,7 +60,9 @@ harvest
 iterm2-beta
 java
 lastfm
+namebench
 onyx
+osxfuse
 packer
 python
 rust
@@ -87,10 +91,16 @@ freetype
 git
 go
 gradle
+graphviz
+hping
+ipfs
 ispell
 jenv
+jmeter
+jq
 jsonpp
 kafkacat
+keybase
 mackup
 node
 ocaml
@@ -100,6 +110,7 @@ PlantUML
 postgresql
 python
 readline
+s3fs
 slurm
 sqlite
 swagger-codegen
